@@ -1,9 +1,10 @@
 [build]
+  base = "ist-app"
   command = "npm run build"
-  publish = "dist"
+  publish = "ist-app/dist"
 
 [functions]
-  directory = "netlify/functions"
+  directory = "ist-app/netlify/functions"
   node_bundler = "esbuild"
 
 [[headers]]
